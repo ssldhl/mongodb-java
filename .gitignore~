@@ -19,3 +19,6 @@ hs_err_pid*
 #Maven Files
 log/
 target/
+
+#Temporary Files
+*~
