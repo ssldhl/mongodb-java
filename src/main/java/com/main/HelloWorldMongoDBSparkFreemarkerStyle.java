@@ -12,8 +12,6 @@ import spark.Spark;
 import java.io.IOException;
 import java.io.StringWriter;
 import java.net.UnknownHostException;
-import java.util.HashMap;
-import java.util.Map;
 
 import static spark.Spark.halt;
 
