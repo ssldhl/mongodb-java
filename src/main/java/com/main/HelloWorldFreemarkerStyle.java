@@ -17,7 +17,7 @@ import java.util.Map;
  * To change this template use File | Settings | File Templates.
  */
 public class HelloWorldFreemarkerStyle {
-    public static void main(String[] args) throws TemplateException {
+    public static void main(String[] args){
         Configuration configuration = new Configuration();
         configuration.setClassForTemplateLoading(HelloWorldFreemarkerStyle.class, "/");
 
@@ -31,6 +31,8 @@ public class HelloWorldFreemarkerStyle {
 
             System.out.println("writer = " + writer);
         } catch (IOException e) {
+            e.printStackTrace();
+        } catch (TemplateException e) {
             e.printStackTrace();
         }
     }
